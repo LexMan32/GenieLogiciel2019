@@ -10,6 +10,9 @@ namespace LoggerSingleton
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
