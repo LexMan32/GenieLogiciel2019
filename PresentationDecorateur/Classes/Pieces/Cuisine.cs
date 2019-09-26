@@ -8,6 +8,11 @@ namespace PresentationDecorateur.Classes.Pieces
 {
     public class Cuisine : AbstractPiece
     {
+        public Cuisine()
+        {
+
+        }
+
         public override double getCout()
         {
             return 0;
@@ -16,11 +21,6 @@ namespace PresentationDecorateur.Classes.Pieces
         public override string getDescription()
         {
             return "Cuisine";
-        }
-
-        public override int getTaille()
-        {
-            return 30;
         }
     }
 }

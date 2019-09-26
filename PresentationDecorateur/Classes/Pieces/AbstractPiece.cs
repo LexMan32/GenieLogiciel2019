@@ -10,8 +10,6 @@ namespace PresentationDecorateur.Classes.Pieces
     {
         public abstract string getDescription();
 
-        public abstract int getTaille();
-
         public abstract double getCout(); 
     }
 }
