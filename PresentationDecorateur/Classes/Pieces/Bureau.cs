@@ -4,9 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PresentationDecorateur.Classes
+namespace PresentationDecorateur.Classes.Pieces
 {
-    class Bureau
+    public class Bureau : AbstractPiece
     {
+        public override double getCout()
+        {
+            return 0;
+        }
+
+        public override string getDescription()
+        {
+            return "Bureau";
+        }
+
+        public override int getTaille()
+        {
+            return 20;
+        }
     }
 }

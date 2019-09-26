@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace PresentationDecorateur.Classes.Pieces
 {
-    class Salon
+    public class Salon : AbstractPiece
     {
+        public override double getCout()
+        {
+            return 0;
+        }
+
+        public override string getDescription()
+        {
+            return "Chambre";
+        }
+
+        public override int getTaille()
+        {
+            return 25;
+        }
     }
 }

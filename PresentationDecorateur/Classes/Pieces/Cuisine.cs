@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace PresentationDecorateur.Classes.Pieces
 {
-    class Cuisine
+    public class Cuisine : AbstractPiece
     {
+        public override double getCout()
+        {
+            return 0;
+        }
+
+        public override string getDescription()
+        {
+            return "Cuisine";
+        }
+
+        public override int getTaille()
+        {
+            return 30;
+        }
     }
 }

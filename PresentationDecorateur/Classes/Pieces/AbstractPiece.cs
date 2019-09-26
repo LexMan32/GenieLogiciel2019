@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace PresentationDecorateur.Classes.Pieces
 {
-    class AbstractPiece
+    public abstract class AbstractPiece
     {
+        public abstract string getDescription();
+
+        public abstract int getTaille();
+
+        public abstract double getCout(); 
     }
 }
