@@ -50,6 +50,7 @@
     <Compile Include="Classes\Pieces\Decorateurs\AbstractMeuble.cs" />
     <Compile Include="Classes\Pieces\Decorateurs\Armoire.cs" />
     <Compile Include="Classes\Pieces\Decorateurs\Chaise.cs" />
+    <Compile Include="Classes\Pieces\Decorateurs\Etagere.cs" />
     <Compile Include="Classes\Pieces\Decorateurs\Lit.cs" />
     <Compile Include="Classes\Pieces\Decorateurs\Table.cs" />
     <Compile Include="Classes\Pieces\Salon.cs" />

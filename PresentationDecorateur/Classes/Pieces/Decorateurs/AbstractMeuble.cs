@@ -19,12 +19,12 @@ namespace PresentationDecorateur.Classes.Pieces.Decorateurs
 
         public override double getCout()
         {
-            return getCout() + getTarif();
+            return piece.getCout() + getTarif();
         }
 
         public override string getDescription()
         {
-            return getDescription() + ":" + getType();
+            return piece.getDescription() + ":" + getType();
         }
 
         public double getTarif()
