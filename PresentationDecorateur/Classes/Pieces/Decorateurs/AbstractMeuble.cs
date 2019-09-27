@@ -24,7 +24,7 @@ namespace PresentationDecorateur.Classes.Pieces.Decorateurs
 
         public override string getDescription()
         {
-            return piece.getDescription() + ":" + getType();
+            return piece.getDescription() + " : " + getType();
         }
 
         public double getTarif()

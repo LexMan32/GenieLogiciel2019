@@ -26,9 +26,13 @@ namespace PresentationDecorateur
             Console.WriteLine();
 
             Console.WriteLine("** Piece 2 **");
-
-
-            Console.WriteLine("** Piece 3 **");
+            AbstractPiece chambre = new Chambre();
+            chambre = new Lit(chambre);
+            chambre = new Armoire(chambre);
+            chambre = new Etagere(chambre);
+            Console.WriteLine(chambre.getDescription());
+            Console.WriteLine("Prix : " + chambre.getCout());
+            Console.WriteLine();
 
             Console.ReadKey();
         }
