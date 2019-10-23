@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PresentationDecorateur.Voitures
 {
-    class Ferrari : Voiture
+    class Porsche : Voiture
     {
-        public override double Prix { get { return 749.99; } }
+        public override double Prix { get { return 879.99; } }
 
-        public override string Modele { get { return "Ferrari 308"; } }
+        public override string Modele { get { return "Porsche Taycan"; } }
     }
 }
