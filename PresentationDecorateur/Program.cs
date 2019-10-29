@@ -15,6 +15,7 @@ namespace PresentationDecorateur
             Voiture client0 = new Lamborghini();
             client0 = new ToitOuvrant(client0);
             client0 = new SystemeMultimedia(client0);
+            client0 = new LotPneu(client0);
 
             Console.WriteLine("Client 0 :");
             Console.WriteLine("\tModele : " + client0.Modele);
@@ -31,7 +32,12 @@ namespace PresentationDecorateur
 
             Console.WriteLine();
 
-            Console.WriteLine("Le client 1 rappelle ");
+            Console.WriteLine("Le client 1 rappelle pour ajouter une option");
+            client1 = new SystemeMultimedia(client1);
+
+            Console.WriteLine("Client 1 :");
+            Console.WriteLine("\tModele : " + client1.Modele);
+            Console.WriteLine("\tPrix : " + client1.Prix);
 
             Console.ReadKey();
         }
